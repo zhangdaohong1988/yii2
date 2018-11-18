@@ -1,4 +1,33 @@
 {
-    "name": "root/yii2",
-    "require": {}
+"name": "yii2",
+"description": "Yii2 zqy234 terrytest",
+"keywords": [
+"yii2",
+"terrytest"
+],
+"homepage": "https://github.com/zhangdaohong1988/yii2",
+"type": "yii2-extension",
+"license": "MIT",
+"support": {
+"source": "https://github.com/zhangdaohong1988/yii2"
+},
+"authors": [
+{
+"name": "zhangdaohon1988",
+"email": "m18611861239@163.com"
+}
+],
+"minimum-stability": "stable",
+"require": {
+"php": ">=5.4.0",
+"yiisoft/yii2": ">=2.0.0"
+},
+"autoload": {
+"psr-4": {
+"terry\\": ""
+}
+},
+"config": {
+"process-timeout": 1800
+}
 }
